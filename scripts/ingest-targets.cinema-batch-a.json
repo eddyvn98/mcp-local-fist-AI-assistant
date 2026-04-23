@@ -1,0 +1,12 @@
+{
+  "apiUrl": "http://localhost:3000/api/memory",
+  "allowedExtensions": [".ts", ".tsx", ".js", ".jsx", ".md", ".json"],
+  "defaultMaxFileSizeBytes": 35000,
+  "targets": [
+    {
+      "dir": "D:/discordvip-cinema-web/apps/cinema-web/src",
+      "project": "discordvip-cinema-web",
+      "tags": ["cinema", "telegram", "player", "web"]
+    }
+  ]
+}

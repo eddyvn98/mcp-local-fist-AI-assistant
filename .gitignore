@@ -1,0 +1,23 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Local data and large files
+local_memory.json
+storage/
+*.zip
+*.rar
+*.7z
+tmp_search.json
+results.json
+analysis_result.txt
+run.out.log
+run.err.log
+.qdrant-initialized
+qdrant.zip
+qdrant_v1.17.zip

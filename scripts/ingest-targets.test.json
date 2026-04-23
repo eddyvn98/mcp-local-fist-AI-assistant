@@ -1,0 +1,10 @@
+{
+  "apiUrl": "http://localhost:3000/api/memory",
+  "targets": [
+    {
+      "dir": "D:/mcp-local-first-ai-assistant/src",
+      "project": "mcp-local-first-ai-assistant-test",
+      "tags": ["test-ingest"]
+    }
+  ]
+}

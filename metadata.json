@@ -1,0 +1,6 @@
+{
+  "name": "MCP Local-First AI Assistant",
+  "description": "An intelligent coding assistant that utilizes Model Context Protocol (MCP) to manage local memory, project context, and LLM knowledge for superior code generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
