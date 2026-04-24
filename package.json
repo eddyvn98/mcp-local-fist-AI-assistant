@@ -14,7 +14,12 @@
     "seed:patterns": "tsx scripts/seed-patterns.ts",
     "migrate:memory:qdrant": "tsx scripts/migrate-memory-to-qdrant.ts",
     "ingest:batch": "tsx scripts/ingest-batch.ts",
-    "ingest:batch:config": "tsx scripts/ingest-batch.ts --config scripts/ingest-targets.json"
+    "ingest:batch:config": "tsx scripts/ingest-batch.ts --config scripts/ingest-targets.json",
+    "setup:shared-client": "node scripts/setup-shared-client.cjs",
+    "app:start": "pm2 start ecosystem.config.cjs",
+    "app:status": "pm2 status",
+    "app:stop": "pm2 stop ecosystem.config.cjs",
+    "app:logs": "pm2 logs"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",

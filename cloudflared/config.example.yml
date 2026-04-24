@@ -1,0 +1,9 @@
+tunnel: mcp-knowledge
+credentials-file: C:\Users\YOUR_USER\.cloudflared\YOUR_TUNNEL_ID.json
+
+ingress:
+  - hostname: qdrant.example.com
+    service: http://127.0.0.1:6333
+  - hostname: assistant.example.com
+    service: http://127.0.0.1:3000
+  - service: http_status:404
